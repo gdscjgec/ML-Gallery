@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/gdscjgec/ML-Gallery">
-    <img src="https://github.com/gdscjgec/ML-Gallery/blob/main/Assets/ML%20Gallery%20Logo.gif" alt="Logo" width="400" height="350">
+    <img src="https://github.com/gdscjgec/ML-Gallery/blob/main/Assets/ML%20Gallery%20Logo.gif" alt="Logo" width="600" height="400">
   </a>
 </p>
 
@@ -99,4 +99,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Mail us at    -  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg' alt='gmail' height='40' align=center>](mailto:gdsc@jgec.ac.in)
 <p> </p>
 
-Join Discord  -  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg' alt='Discord' height='40' align=center>](https://discord.gg/9zGTmVSgc6)
+Join Discord  -  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg' alt='Discord' height='40' align=center>](https://discord.gg/kTHMgAgmvf)
