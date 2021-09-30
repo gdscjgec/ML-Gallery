@@ -5,19 +5,19 @@
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgooEjFqNB4VIHcKQr1SLt_M99asA6WtMbxQ&usqp=CAU" alt="Logo" width="500" height="350">
   </a>
 
-  <h3 align="center">ML Gallery</h3>
+<h3 align="center">ML Gallery</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A starter repository to guide you through your earlier days of learning Datascience and Machine Learning!
     <br />
     <a href=""><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="">Starter Notebook</a>
     ·
-    <a href="">Report Bug</a>
+    <a href="">EDA Notebook</a>
     ·
-    <a href="">Request Feature</a>
+    <a href="">Links to Datasets</a>
   </p>
 </p>
 
