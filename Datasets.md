@@ -22,10 +22,7 @@ Here we have curated links of various datasets , with respect to their ***ML sol
 
      - Churn Modelling : https://www.kaggle.com/shubh0799/churn-modelling?select=Churn_Modelling.csv
 
-* ## Deep Learning :
-
-    * ###CNN :
-    
-          - THE MNIST DATABASE of handwritten digits : http://yann.lecun.com/exdb/mnist/
-          - Fashion MNIST : https://www.kaggle.com/zalando-research/fashionmnist
-          - Dogs vs. Cats : https://www.kaggle.com/c/dogs-vs-cats/data
+* ## Deep Learning (### CNN ):
+     - THE MNIST DATABASE of handwritten digits : http://yann.lecun.com/exdb/mnist/
+     - Fashion MNIST : https://www.kaggle.com/zalando-research/fashionmnist
+     - Dogs vs. Cats : https://www.kaggle.com/c/dogs-vs-cats/data
