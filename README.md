@@ -2,10 +2,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/gdscjgec">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgooEjFqNB4VIHcKQr1SLt_M99asA6WtMbxQ&usqp=CAU" alt="Logo" width="80" height="80">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgooEjFqNB4VIHcKQr1SLt_M99asA6WtMbxQ&usqp=CAU" alt="Logo" width="500" height="350">
   </a>
 
-  <h3 align="center">Project Name</h3>
+  <h3 align="center">ML Gallery</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
