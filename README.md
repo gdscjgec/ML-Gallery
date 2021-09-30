@@ -14,11 +14,11 @@
     <strong>Explore the docs »</strong>
     <br />
     <br />
-    <a href="">Starter Notebook</a>
+    <a href="https://github.com/gdscjgec/ML-Gallery/blob/main/Starter_Notebook.ipynb">Starter Notebook</a>
     ·
-    <a href="">EDA Notebook</a>
+    <a href="https://github.com/gdscjgec/ML-Gallery/blob/main/Classification/wine_quality_tasting.ipynb">EDA Notebook</a>
     ·
-    <a href="">Links to Datasets</a>
+    <a href="https://github.com/gdscjgec/ML-Gallery/blob/main/Datasets.md">Links to Datasets</a>
   </p>
 </p>
 
