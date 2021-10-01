@@ -1,10 +1,4 @@
-<p align="center"><img
-        src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg"
-        alt="Banner"
-        width="60%"
-        align="center"
- />
-  </p>
+<div align="center"><a href="https://hacktoberfest.digitalocean.com/"><img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Banner" width="60%"/></a></div>
 
 <!-- PROJECT LOGO -->
 
