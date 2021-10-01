@@ -1,8 +1,16 @@
+<p align="center"><img
+        src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg"
+        alt="Banner"
+        width="60%"
+        align="center"
+ />
+  </p>
+
 <!-- PROJECT LOGO -->
 
 <p align="center">
   <a href="https://github.com/gdscjgec/ML-Gallery">
-    <img src="https://github.com/gdscjgec/ML-Gallery/blob/main/Assets/ML%20Gallery%20Logo.gif" alt="Logo" width="600" height="400">
+    <img src="https://github.com/gdscjgec/ML-Gallery/blob/main/Assets/ML%20Gallery%20Logo.gif" alt="Logo" width="300" height="200">
   </a>
 </p>
 
