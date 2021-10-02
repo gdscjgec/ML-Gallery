@@ -17,6 +17,7 @@ Here we have curated links of various datasets , with respect to their ***ML sol
 * ## Clustering :
      
      - Household Electric Power Consumption : https://www.kaggle.com/uciml/electric-power-consumption-data-set?select=household_power_consumption.txt
+     - TMDB 5000 Movie Dataset : https://www.kaggle.com/tmdb/tmdb-movie-metadata
 
 * ## Artificial Neural Network : 
 
