@@ -2,7 +2,7 @@
 
 ## Notebook :
   
-  [Notebook link](https://www.kaggle.com/padmanabhabanerjee/wine-quality-tasting)
+  [Notebook link](https://www.kaggle.com/tishajhabak/wine-quality-tasting?scriptVersionId=76261472)
 
 ## Dataset : 
   
@@ -10,7 +10,7 @@
 
 ## EDA :
 
-  Boxxplots and scatterplots used to visualise the data !! Boxplots show us the spread of the data and also shows us the outliers present in each feature of the dataset. 
+  Boxplots and scatterplots used to visualise the data !! Boxplots show us the spread of the data and also shows us the outliers present in each feature of the dataset. 
 The scatterplot gives us the idea of the distribution of particular feature with respect to another. The correlation heatmap helps us select the best features to be used in the training. It gives us the dependencies of each feature on other.
 
 ## Models :
@@ -23,6 +23,7 @@ The different algorithms are :
 * **Random Forest**
 * **Naive Bayes**
 * **Logistic Regression**
+* **AdaBoost**
 
 ## Results :
 
@@ -33,13 +34,20 @@ The different algorithms are :
 |   2	  |    random_forest    |  0.951235    	| {'max_depth': 8, 'n_estimators': 10}  	|  
 |   3   |     naive_bayes     |  0.944444     | {}                                      |
 |   4   | logistic_regression |  0.948148     | {'C': 1}                                |
+|   5   |       adaboost      |  0.948148     | {'base_estimator': SVC(kernel='linear', probability=True),'learning_rate': 0.5,'n_estimators':5|
 
 ### The table given above shows that Random Forest gives us the best result , so we have used the model to check the cross-validation accuracy.
 ```
-  cross_val_score = 94.93915524557382  
+  cross_val_score = 94.8156977027752  
+```
+```
+  cross_val_score_by_ada = 94.81481481481481  
 ```
 
 ### The test accuracy for the model :
 ```
   test_acc = 93.58024691358024
+```
+```
+  test_acc_by_ada = 93.58024691358024
 ```
