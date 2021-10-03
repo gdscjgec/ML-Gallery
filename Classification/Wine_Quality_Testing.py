@@ -188,6 +188,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
+from sklearn.ensemble import AdaBoostClassifier
+# import support vector classifier to use as base_estimator for adaboost
+from sklearn.svm import SVC
+svc=SVC(probability=True, kernel='linear')
 
 """###Using Five different Classification Algorithms and selectiing the best for generating best results :
 * Support Vector Machine
@@ -195,6 +199,7 @@ from sklearn.svm import SVC
 * Random Forest
 * Naive Bayes
 * Logistic Regression
+* AdaBoost
 """
 
 model_params  = {
@@ -231,6 +236,15 @@ model_params  = {
         'params': {
             "C" : [1,5,10]
         }
+    },
+    
+    "adaboost":{
+        "model": AdaBoostClassifier(),
+        "params":{
+            "base_estimator": [svc],
+            "n_estimators":[5,10, 15],
+            "learning_rate":[0.5,1.0,0.8]
+        }
     }
     
 }
@@ -249,6 +263,10 @@ result = pd.DataFrame(score,columns=["Model","Best_Score","Best_Params"])
 
 result
 
+best_ada_params = result.loc[5, ['Best_Params']][0]
+
+best_ada_params
+
 from sklearn.model_selection import cross_val_score
 clf_rf = RandomForestClassifier(max_depth= 9, n_estimators=5)
 scores = cross_val_score(clf_rf,X_train,y_train,cv=8,scoring="accuracy")
@@ -262,3 +280,13 @@ from sklearn.metrics import accuracy_score
 acc = accuracy_score(y_test,y_pred)
 print(acc*100)
 
+clf_ada = AdaBoostClassifier(base_estimator = svc, learning_rate=0.5, n_estimators = 5)
+scores_ada = cross_val_score(clf_ada,X_train,y_train,cv=5,scoring="accuracy")
+
+scores_ada.mean()*100
+
+clf_ada.fit(X_train,y_train)
+ada_y_pred = clf_ada.predict(X_test)
+
+ada_acc = accuracy_score(y_test,ada_y_pred)
+print(ada_acc*100)
