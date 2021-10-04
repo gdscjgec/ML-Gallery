@@ -31,8 +31,11 @@ Here are the accuracy rates seen by implementing differet models
   |Decision tree      |100%             |  
   |Random Forest      |100%             |
 
+
+We get a 100 percent training accuracy by Random Forest, Decision tree and Kernal SVM models
+
 # Test Accuracy For the Model
 
-Test_acc = 1
+```Test_acc = 100%```
   
-  We get a 100 percent accuracy by Random Forest, Decision tree and Kernal SVM models
+  
