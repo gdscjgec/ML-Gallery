@@ -22,3 +22,4 @@ Here are the accuracy rates seen by implementing differet models
   |Naive Bayes        |92.14%           |
   |Decision tree      |100%             |  
   |Random Forest      |100%             |
+  |Test Accuracy      |100%             |
