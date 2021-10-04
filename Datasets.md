@@ -7,6 +7,7 @@ Here we have curated links of various datasets , with respect to their ***ML sol
      - California Housing prices : https://www.kaggle.com/camnugent/california-housing-prices?select=housing.csv
      - Car Price Prediction : https://www.kaggle.com/hellbuoy/car-price-prediction?select=CarPrice_Assignment.csv
      - Medical Cost Personal Datasets : https://www.kaggle.com/mirichoi0218/insurance?select=insurance.csv
+     - Salary dataset: https://www.kaggle.com/vihansp/salary-data
 
 * ## Classification :
 
