@@ -2,7 +2,7 @@
 
 ## Notebook :
   
-  [Notebook link](https://www.kaggle.com/tishajhabak/wine-quality-tasting?scriptVersionId=76261472)
+  [Notebook link](https://www.kaggle.com/tishajhabak/wine-quality-testing?scriptVersionId=76296125)
 
 ## Dataset : 
   
@@ -24,29 +24,31 @@ The different algorithms are :
 * **Naive Bayes**
 * **Logistic Regression**
 * **AdaBoost**
+* **Gradient Boosting**
 
 ## Results :
 
 |Sl.No. |        Model        |  Best_Score 	| Best_Params  	                          |
 |-----	|---------------------|---------------|-----------------------------------------|
 |   0	  |         svm         |  0.948148  	  | {'C': 1, 'kernel': 'rbf'}  	            |  
-|   1	  |    decision_tree    |  0.948148 	  | {'criterion': 'gini', 'max_depth': 5}  	|  
-|   2	  |    random_forest    |  0.951235    	| {'max_depth': 8, 'n_estimators': 10}  	|  
+|   1	  |    decision_tree    |  0.943827 	  | {'criterion': 'gini', 'max_depth': 5}  	|  
+|   2	  |    random_forest    |  0.952469   	| {'max_depth': 10, 'n_estimators': 10}  	|  
 |   3   |     naive_bayes     |  0.944444     | {}                                      |
 |   4   | logistic_regression |  0.948148     | {'C': 1}                                |
-|   5   |       adaboost      |  0.948148     | {'base_estimator': SVC(kernel='linear', probability=True),'learning_rate': 0.5,'n_estimators':5|
+|   5   |       AdaBoost      |  0.954938     | {'base_estimator': ExtraTreesClassifier(n_estimators=10, random_state=0),'learning_rate': 0.5,'n_estimators': 5} |
+|   6   |  Gradient Boosting  |  0.945062     | {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 15} |
 
-### The table given above shows that Random Forest gives us the best result , so we have used the model to check the cross-validation accuracy.
+### The table given above shows that AdaBoost gives us the best result , so we have used the model to check the cross-validation accuracy.
 ```
-  cross_val_score = 94.8156977027752  
+  cross_val_score_by_rf = 94.876969224016
 ```
 ```
-  cross_val_score_by_ada = 94.81481481481481  
+  cross_val_score_by_ada = 95.4320987654321
 ```
 
 ### The test accuracy for the model :
 ```
-  test_acc = 93.58024691358024
+  test_acc_by_rf = 93.33333333333333
 ```
 ```
   test_acc_by_ada = 93.58024691358024
