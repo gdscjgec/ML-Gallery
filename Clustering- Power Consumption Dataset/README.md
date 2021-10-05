@@ -27,4 +27,5 @@ Heirarchical Clustering
 # Test Accuracy For the Model
 
 Silhoutte score for Kmeans Clustering = 0.30464526116685425
+
 Silhoutte Score for heirarchical clustering = 0.30633563856655466
