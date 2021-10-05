@@ -38,6 +38,17 @@ The different algorithms are :
 |   5   |       AdaBoost      |  0.954938     | {'base_estimator': ExtraTreesClassifier(n_estimators=10, random_state=0),'learning_rate': 0.5,'n_estimators': 5} |
 |   6   |  Gradient Boosting  |  0.945062     | {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 15} |
 
+## Results (Boosting Algorithms):
+|Sl.No. | Model | Accuracy |
+| :--: | :--: | :--: |
+|0|AdaBoost|78.02%|
+|1|XGBoost|93.33%|
+|2|Catboost|93.58%|
+|3|Light GBM|94.07%|
+|4|Bagged Adaboost|88.39%|
+|5|Bagged XGBoost|93.58%|
+|6|Bagged Catboost|93.82%|
+|7|Bagged Light GBM|94.07%|
 ### The table given above shows that AdaBoost gives us the best result , so we have used the model to check the cross-validation accuracy.
 ```
   cross_val_score_by_rf = 94.876969224016
@@ -52,4 +63,29 @@ The different algorithms are :
 ```
 ```
   test_acc_by_ada = 93.58024691358024
+```
+### The test accuracy for each boosting algorithm:
+```
+Adaboost classifier = 78.02%
+```
+```
+XGBoost Classifier = 93.33%
+```
+```
+Catboost Classifier = 93.58%
+```
+```
+Light GBM = 94.07%
+```
+```
+Bagged Adaboost = 88.39%
+```
+```
+Bagged XGBoost = 93.58%
+```
+```
+Bagged Catboost = 93.82%
+```
+```
+Bagged Light GBM = 94.07%
 ```
