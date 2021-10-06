@@ -98,8 +98,8 @@
    Each of the networks are iterated through 50 epochs.
    Test accuracy of the networks are given below:
 ```
-    Test accuracy of NetA-  10.580000281333923 %    
-    Test accuracy of NetB-  46.75000011920929 %
-    Test accuracy of NetC-  65.75000286102295 %
-    Test accuracy of NetD-  69.88999843597412 %
+    Test accuracy of NetA-  10.39000004529953 %    
+    Test accuracy of NetB-  47.360000014305115 %
+    Test accuracy of NetC-  64.38000202178955 %
+    Test accuracy of NetD-  70.1200008392334 %
 ```   

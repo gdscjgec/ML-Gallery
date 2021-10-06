@@ -151,14 +151,11 @@ class NetD:
       y_pred= model.predict(tx)
       return y_pred,history,acc
 
-predA,hisA,aacA=NetA().net(train_images,train_labels,test_images,test_labels)   
-
+predA,hisA,aacA=NetA().net(train_images,train_labels,test_images,test_labels)
 
 predB,hisB,accB=NetB().net(train_images,train_labels,test_images,test_labels)
 
-     
 predC,hisC,accC=NetC().net(train_images,train_labels,test_images,test_labels)
-
 
 predD,hisD,accD=NetD().net(train_images,train_labels,test_images,test_labels)
 
