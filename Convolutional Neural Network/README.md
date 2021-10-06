@@ -88,7 +88,7 @@
       Total params: 1,220,554
       Trainable params: 1,220,554
       Non-trainable params: 0
-      
+    ```  
 ## Visualisation :
 
    A visualization of all the results with respect to the images and their classes are done , which gives an idea of the performance of each of the networks.
