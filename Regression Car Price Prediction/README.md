@@ -1,10 +1,10 @@
-# Regression Model
+# Regression Model:
 
 ## Notebook:
-  [Notebook_link]https://www.kaggle.com/neerajanandcoder/car-price-prediction?scriptVersionId=76569384
+  [Notebook_link](https://www.kaggle.com/neerajanandcoder/car-price-prediction?scriptVersionId=76569384)
   
 ## Dataset:
-  [Dataset_link]https://www.kaggle.com/hellbuoy/car-price-prediction
+  [Dataset_link](https://www.kaggle.com/hellbuoy/car-price-prediction)
 
 ## Exploratory Data Analysis
   In EDA, used histogram to see the distribution of data and pairplot and correlation matrix to visualize the realtion between differnet features 
