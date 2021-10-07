@@ -28,4 +28,4 @@
 |   4   | Logistic Regression        |  0.9805             |
 |   5   | AdaBoost Classifier        |  0.9611             |
 
-#### The table shows that Logistic Regression gives us the best result.****
+#### The table shows that Logistic Regression gives us the best result.
