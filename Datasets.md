@@ -14,6 +14,7 @@ Here we have curated links of various datasets , with respect to their ***ML sol
      - Mushroom Classification : https://www.kaggle.com/uciml/mushroom-classification?select=mushrooms.csv
      - Breast Cancer Wisconsin (Diagnostic) Data Set : https://www.kaggle.com/uciml/breast-cancer-wisconsin-data?select=data.csv
      - Titanic - Machine Learning from Disaster : https://www.kaggle.com/c/titanic/data?select=train.csv
+     - Heart Disease Dataset-https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression
 
 * ## Clustering :
      
