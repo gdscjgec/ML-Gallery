@@ -7,7 +7,7 @@
   [Dataset_link](https://www.kaggle.com/hellbuoy/car-price-prediction)
 
 ## Exploratory Data Analysis
-  In EDA, used histogram to see the distribution of data and pairplot and correlation matrix to visualize the realtion between differnet features 
+  In EDA, used histogram to see the distribution of data and used pairplot and correlation matrix to visualize the realtion between differnet features 
   and also the feaature importance.
 
 ## Data Preprocessing:
@@ -16,7 +16,7 @@
   improve model performance.
   
 ## Model:
-  Used **Linear Regression, LassoCV, Ridge Regression, XGB Regression, Random Forest Regression** and found that lassoCV outperforms the other model.
+  Used **Linear Regression, LassoCV, Ridge Regression, XGB Regression, Random Forest Regression** and found that **LassoCV** outperforms the other model.
 
 ## Results:
   
@@ -29,4 +29,4 @@
 |   4   | Random Forest Regression   |  0.921890           |
 
 
-### LassoCV is the best Model.
+### Hence LassoCV is the best Model.
