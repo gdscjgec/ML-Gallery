@@ -89,6 +89,43 @@
       Trainable params: 1,220,554
       Non-trainable params: 0
     ```  
+    * ***Net-E*** - A pretrained Convolutional Neural Network which re-trains an ImageNet ResNet-50V2. It retrains this model because of how similar CIFAR-10 classes are to ImageNet, and because of how we can see that transfer learning works best when working with tasks which have similar classes.
+    ```
+    Layer (type)                    Output Shape         Param #     Connected to                     
+    ==================================================================================================
+    input_19 (InputLayer)           [(None, 32, 32, 3)]  0                                            
+    __________________________________________________________________________________________________
+    conv1_pad (ZeroPadding2D)       (None, 38, 38, 3)    0           input_19[0][0]                   
+    __________________________________________________________________________________________________
+    conv1_conv (Conv2D)             (None, 16, 16, 64)   9472        conv1_pad[0][0]                  
+    __________________________________________________________________________________________________
+    pool1_pad (ZeroPadding2D)       (None, 18, 18, 64)   0           conv1_conv[0][0]                 
+    __________________________________________________________________________________________________
+    pool1_pool (MaxPooling2D)       (None, 8, 8, 64)     0           pool1_pad[0][0]                  
+    __________________________________________________________________________________________________
+    conv2_block1_preact_bn (BatchNo (None, 8, 8, 64)     256         pool1_pool[0][0]                 
+    __________________________________________________________________________________________________
+    conv2_block1_preact_relu (Activ (None, 8, 8, 64)     0           conv2_block1_preact_bn[0][0]     
+    __________________________________________________________________________________________________
+    conv2_block1_1_conv (Conv2D)    (None, 8, 8, 64)     4096        conv2_block1_preact_relu[0][0]   
+    __________________________________________________________________________________________________
+    conv2_block1_1_bn (BatchNormali (None, 8, 8, 64)     256         conv2_block1_1_conv[0][0]        
+    __________________________________________________________________________________________________
+    ...
+    __________________________________________________________________________________________________
+    post_bn (BatchNormalization)    (None, 1, 1, 2048)   8192        conv5_block3_out[0][0]           
+    __________________________________________________________________________________________________
+    post_relu (Activation)          (None, 1, 1, 2048)   0           post_bn[0][0]                    
+    __________________________________________________________________________________________________
+    flatten_13 (Flatten)            (None, 2048)         0           post_relu[0][0]                  
+    __________________________________________________________________________________________________
+    dense_13 (Dense)                (None, 10)           20490       flatten_13[0][0]                 
+    ==================================================================================================
+    Total params: 23,585,290
+    Trainable params: 23,539,850
+    Non-trainable params: 45,440
+    __________________________________________________________________________________________________
+    ```
 ## Visualisation :
 
    A visualization of all the results with respect to the images and their classes are done , which gives an idea of the performance of each of the networks.
