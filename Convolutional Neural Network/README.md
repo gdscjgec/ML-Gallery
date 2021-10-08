@@ -139,4 +139,5 @@
     Test accuracy of NetB-  47.360000014305115 %
     Test accuracy of NetC-  64.38000202178955 %
     Test accuracy of NetD-  70.1200008392334 %
+    Test accuracy of NetE-  81.77000284194946 %
 ```   
