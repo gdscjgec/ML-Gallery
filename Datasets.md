@@ -33,3 +33,4 @@ Here we have curated links of various datasets , with respect to their ***ML sol
 * ## NLP :
      - Amazon product data : http://jmcauley.ucsd.edu/data/amazon/
      - Multi-Domain Sentiment Dataset : https://www.cs.jhu.edu/~mdredze/datasets/sentiment/index2.html
+     - Restaurant reviews Dataset : https://www.kaggle.com/apekshakom/sentiment-analysis-of-restaurant-reviews
