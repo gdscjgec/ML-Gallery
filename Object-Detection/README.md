@@ -49,4 +49,4 @@ To run this Program of Object_detction through images run this command:
 To run real-time Object_detection make sure your webcam is connected and then run this command
 `python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel`
 
-Note: 
+
