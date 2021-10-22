@@ -1,5 +1,5 @@
 
-# Regression Model:
+# Data Imputation Techniques:
 
 **Note:** Imputation was done foe only `Age` featue.
 ## Dataset : 
