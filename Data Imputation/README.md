@@ -1,7 +1,7 @@
 
 # Data Imputation Techniques:
 
-**Note:** Imputation was done foe only `Age` featue.
+**Note:** Imputation was done for only `Age` featue.
 ## Dataset : 
   [Dataset link](https://www.kaggle.com/c/titanic) 
   
